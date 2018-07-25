@@ -105,3 +105,33 @@
         top: -20px;
 
     }
+  
+    
+#menu {
+	margin: 26px 0;
+}
+#menu li {
+	display: inline-block;
+	
+}
+#menu li.search {
+    width: 182px;
+
+}
+#menu li.search input{
+    background-color: #5c2d90;
+    color: #FFF;
+    border:none;
+    height: 30px;
+    line-height: 30px;
+    
+}
+#menu li.search ::-webkit-input-placeholder{
+    color: #FFF;
+}
+#menu li a {
+	color: #FFF;
+	font-size: 16px;
+	padding: 10px 25px;
+	font-weight: bold;
+}
