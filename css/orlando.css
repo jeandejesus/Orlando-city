@@ -1,3 +1,8 @@
+    body{
+        width: 100%;
+        position: absolute;
+
+    }
     header{
         width: 100%;
         height: 150px;
@@ -174,4 +179,36 @@ right: 10px;
     display:block;
     color: #FFF;    
 
+}
+#news {
+    position: relative;
+    top: 600px;
+}
+#news h2 {
+	color:#5E2799;
+	font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    right: 400px;
+}
+#news hr {
+	border:yellow solid 2px;
+    width: 200px;
+    position: absolute;    
+    top: 48px;
+    right: 450px;
+}
+
+#news .tumbmails{
+    margin-top: 80px;
+}
+
+#news .tumbmails h3{
+    color: #5c2d90;
+    font-size: 18px;
+}
+#news .tumbmails time{
+    color: black;
+    font-size: 18px;
 }
