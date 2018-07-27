@@ -1,7 +1,7 @@
     body{
+        margin-right: -150px;
+        position: relative;
         width: 100%;
-        position: absolute;
-
     }
     header{
         width: 100%;
@@ -22,11 +22,11 @@
         
     }
     header .header-black li {
-        background-image : url("../img/clubs.png");
-        background-repeat: no-repeat;
-        display: inline-block;
-        margin: 4px;
-    }
+	background-image: url("../img/clubs.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin: 4px;
+}
     header .header-black li.clube-01 {
         background-position: 0px 0px
     }
@@ -158,10 +158,11 @@ right: 10px;
 
 #banner{
     width: 100%;
-    height: 728px;
-    position: relative;
-    background: url("../img/banner.jpg");
-    top: -110px;
+	height: 728px;
+	position: relative;
+	background: url("../img/banner.jpg") no-repeat;
+	background-position: 0px -100px;
+	top: -130px;
 }
 
 #banner h1{
@@ -181,34 +182,56 @@ right: 10px;
 
 }
 #news {
-    position: relative;
-    top: 600px;
+	position: relative;
+    top: -110px;
 }
 #news h2 {
 	color:#5E2799;
+	font-family: 'OpenSans-Light';
 	font-size: 48px;
     text-transform: uppercase;
     text-align: center;
-    position: absolute;
-    right: 400px;
 }
 #news hr {
-	border:yellow solid 2px;
-    width: 200px;
-    position: absolute;    
-    top: 48px;
-    right: 450px;
+	border:#FDE192 solid 2px;
+	width: 200px;
+	margin: 0 auto;     
+}   
+#news .thumbnails {
+	margin-top: 20px;
+}
+#news .thumbnails h3 {
+	color: #5E299A;
+	font-size: 18px;
+	font-family: 'OpenSans';
+	font-weight: bold;
+	margin-bottom: 0;
+}
+#news .thumbnails time {
+	color:#A7A7A7;
+	font-size: 18px;
+	font-family: 'OpenSans';
+}
+#estatistica{
+    background-color: #5c2d90;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+#estatistica p{
+    font-size: 64px;
+    color: #FDE092;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-family: 'OpenSans';
+
 }
 
-#news .tumbmails{
-    margin-top: 80px;
-}
+#estatistica small{
+    margin-top: -20px;
+    color: #fff;
+    font-size:24px;
+    display: block;
+    font-family: 'OpenSans';
 
-#news .tumbmails h3{
-    color: #5c2d90;
-    font-size: 18px;
-}
-#news .tumbmails time{
-    color: black;
-    font-size: 18px;
 }
